@@ -18,11 +18,9 @@ working_copy = re.sub(r'[ \t\n\r\f\v]+', '', working_copy)
 
 if working_copy[0] == 'S' or working_copy[0] == 'C':
     i = 14 # Modem
-    head = working_copy[0]
     sn_and_space = 15
 elif working_copy[0] == 'A':
     i = 11 # WAP
-    head = working_copy[0]
     sn_and_space = 12
 else:
     i = 9 # STB or PVR
