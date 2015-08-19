@@ -1,7 +1,7 @@
 ; Pseudo code for final SerialInput.au3
 ; Assumptions: SNs provided are correct.
 ;
-; Read cleanedSNs.txt and store SNs
+; Read cleanSNs.txt and store SNs
 ; navigate to Receiving module
 ; enter order # and bill of lading
 ; select appropriate SKU and enter quantity
