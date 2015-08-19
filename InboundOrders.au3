@@ -10,12 +10,9 @@ Local $aPlantCode[ 31 ] = [ "Actual plant codes were removed." ], _
 	  $sList = ""
 
 ; Copy plant codes from array to string as required by drop down GUI.
-
 For $i = 0 To ( UBound( $aPlantCode ) - 1 ) Step +1
     $sList &= "|" & $aPlantCode[ $i ]
 Next
-
-closeHiddenIE()
 
 #Region Create GUI
 
@@ -33,6 +30,8 @@ GUISetState()
 #EndRegion Create GUI
 
 #Region Execution
+
+closeHiddenIE()
 
 While 1 ; Run until user exits.
   Switch GUIGetMsg()
