@@ -6,11 +6,11 @@ I was employeed to maintain a warehouse for a telecommunications company. It was
 ---
 ECOPS: accepts an order number and navigates to a submission form to enter the packing slip details.
 
-InboundOrders: retrieves order metadata for the selected warehouse from the web then cleans and prints via MS Excel.
+[InboundOrders](/InboundOrders.au3): retrieves all inbound orders' metadata from the web then cleans and prints via MS Excel.
 
 
 ####Helper Scripts:
 ---
-[YearsFromToday](/YearsFromToday.au3): Returns the current date, with adjusted year, in MM/DD/YYYY format.
+[YearsFromToday](/YearsFromToday.au3): returns the current date, with adjusted year, in MM/DD/YYYY format.
 
-[Cleaner](/Cleaner.py): Returns serial numbers in .txt from OCR output.
+[Cleaner](/Cleaner.py): returns serial numbers in .txt from OCR output.
