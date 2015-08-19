@@ -11,7 +11,8 @@ Func yearsFromToday( $iDifference )
 
 	_DateTimeSplit( _NowCalcDate(), $aDateSplit, $aTimeSplit )
 
-	$sResult = $aDateSplit[2] & "/" & $aDateSplit[0] & "/" & ( Int( $aDateSplit[1] ) + $iDifference )
+	$sResult = $aDateSplit[2] & "/" & $aDateSplit[0] & "/" & _
+	    ( Int( $aDateSplit[1] ) + $iDifference )
 
 	Return $sResult
 EndFunc
