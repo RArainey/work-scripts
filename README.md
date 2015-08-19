@@ -11,6 +11,6 @@ InboundOrders: retrieves order metadata for the selected warehouse from the web 
 
 ####Helper Scripts:
 ---
-[YearsFromToday](../YearsFromToday.au3): Returns the current date, with adjusted year, in MM/DD/YYYY format.
+[YearsFromToday](/YearsFromToday.au3): Returns the current date, with adjusted year, in MM/DD/YYYY format.
 
-[Cleaner](../Cleaner.py): Returns serial numbers in .txt from OCR output.
+[Cleaner](/Cleaner.py): Returns serial numbers in .txt from OCR output.
