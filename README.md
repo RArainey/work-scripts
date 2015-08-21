@@ -1,6 +1,6 @@
 # work-scripts
 
-I was employeed as a shipper/receiver in a warehouse for a telecommunications company. It was a small location staffed by me and my forklift and a few inventory systems. The software we had to use was simple enough, but there was too much time wasted waiting for pages to refresh and reports to be served. It was frustrating having to sit and watch "Please wait..." everyday. I knew enough about software to be dangerous and set out to make some scripts. I googled around for something that could simply handle Internet Explorer and Excel and found the [AutoIT 3](https://www.autoitscript.com/site/autoit/) language. All scripts are .au3, except [Cleaner](/Cleaner.py), because I was curious about Python.
+When I was employed as a shipper/receiver by a telecommunications company, I worked at a small location staffed by me, my forklift, and a few inventory systems. The software I used was simple, but inefficient; too much time was wasted waiting for pages to refresh and reports to be served. I decided to write scripts to automate my more repetitive daily tasks. To do that, I needed a language that could handle Internet Explorer and Excel, and found AutoIT 3. Once I had written several scripts in AutoIT 3, I became curious about other languages, and picked Python to create Cleaner.
 
 ####Scripts:
 ---
